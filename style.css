@@ -1,0 +1,71 @@
+/* GENERAL STYLES */
+
+@font-face {
+  font-family: "IranYekan";
+  font-weight: 700;
+  font-style: normal;
+  src: url(Fonts/iranyekanwebbold.woff) format(woff);
+}
+
+@font-face {
+  font-family: "IranYekan";
+  font-weight: 400;
+  font-style: normal;
+  src: url(Fonts/iranyekanwebregular.woff);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --buttons-color: #ff5722;
+  --second-color-light: #fff6f2;
+  --second-color-dark: #ffa589;
+  --navbars-color: #f8f8f8;
+  --headings-color: #000;
+  --bodys-color: #333333;
+  --color-white: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "IranYekan";
+  color: var(--bodys-color);
+  font-size: 1.4rem;
+}
+
+body * {
+  font-family: "IranYekan";
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: var(--headings-color);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+
+.btn {
+  margin: 70px;
+  font-size: 1.6rem;
+  color: var(--color-white);
+  background-color: var(--buttons-color);
+  padding: 1.9rem 2.7rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+}
+
+/* HEADER STYLES */
